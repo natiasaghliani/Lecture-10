@@ -8,41 +8,55 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-    <header>
+
+    <section class="s-1">
         <div class="container">
             <h1>
                 Contact
             </h1>
-        </div>
-    </header>
-
-    <section>
-        <div class="container">
             <h2>
-                Contact us to get free support
+                Contact us to get <br> free support
             </h2> 
 
-            <form action="/action_page.php">
-                <div class="wrapper">
-                    <div class="description">
-                        <textarea type="textarea" name="description" id="description" style="width: 720px; height: 288px;" placeholder="Description.."></textarea>
-                    </div>
+            <div class="form-wrapper">
+
+                <form action="" method="post">
+
+                    <textarea  
+                        name="description" 
+                        id="description" 
+                        placeholder="Description.."
+                    ></textarea>
+        
                     <div class="fill">
-                        <label for="subject"></label>
-                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                        <input 
+                            type="text"
+                            id="subject" 
+                            name="subject" 
+                            placeholder="Subject"
+                        />
 
-                        <label for="lname"></label>
-                        <input type="text" id="ns" name="name/surname" placeholder="Name / Surname">
+                        <input 
+                            type="text" 
+                            id="ns" 
+                            name="name/surname" 
+                            placeholder="Name / Surname"
+                        />
 
-                        <label for="email"></label>
-                        <input type="text" id="email" name="email" placeholder="Email">
+                        <input 
+                            type="text" 
+                            id="email" 
+                            name="email" 
+                            placeholder="Email"
+                        />
 
-                        <button type="submit">Send</button>
+                        <button>Send</button>
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>   
 
             <div class="contact">
                 <div class="card">
@@ -66,13 +80,14 @@
                     <p class="info">Main Street New York City</p>
                 </div>
             </div>
+            
         </div>
     </section>
 
-    <section>
+    <section class="s-2">
         <div class="container">
             <h1>Photos</h1>
-            <h4>See our latest photos from restaurant and hotel</h4>
+            <h4>See our latest photos <br> from restaurant and hotel</h4>
         </div>
 
         <div class="photos">
